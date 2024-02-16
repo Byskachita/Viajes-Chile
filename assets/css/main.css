@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
+
+body{
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+}
+
+nav img {
+    width: 50px;
+}
+
+#carouselExample img{
+    max-height: 650px;
+    object-fit: cover;
+}
