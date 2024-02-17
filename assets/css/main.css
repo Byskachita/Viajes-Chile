@@ -5,23 +5,39 @@ body *{
     font-style: normal;
 }
 
+body h3 {
+    color: #fff;
+    font-weight: 700; 
+}
+
+
+/*NAVBAR****************************************/
+
 nav img {
     width: 50px;
 }
+
+
+/*SLIDER****************************************/
 
 #carouselExample img{
     max-height: 650px;
     object-fit: cover;
 }
 
+
+/*SECTION I**************************************/
+
 main {
     background-color: #000;
 }
 
-section h3 {
-    color: #fff;
-    font-weight: 700;
+section {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
 }
+
 
 .icon_header {
     height: 30px;
@@ -41,6 +57,9 @@ section h3 {
     font-weight: 300px;
 }
 
+
+/*SECTION II***********************************************/
+
 section .card {
     background-color: #27a8b9;
 }
@@ -55,15 +74,27 @@ section .card-body {
     object-fit: cover;
 }
 
+
+/*FORM***************************************************/
+
 form .btn {
     background-color: #27a8b9;
     color: #fff;
     border-style: none;
 }
 
+
+/*FORM*****************************************************/
+
 footer {
     background-color: #27a8b9;
     color: #fff;
+}
+
+footer .icon-section {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
 }
 
 .icon ul {
