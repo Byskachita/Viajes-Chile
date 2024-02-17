@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap');
 
-body{
+body *{
     font-family: "Dosis", sans-serif;
     font-style: normal;
 }
@@ -13,3 +13,40 @@ nav img {
     max-height: 650px;
     object-fit: cover;
 }
+
+main {
+    background-color: #000;
+}
+
+section h3 {
+    color: #fff;
+}
+
+.container-fluid {
+    width: 100px;
+    height: auto;
+
+}
+
+.title {
+    color: #fff;
+}
+
+.icon_header {
+    height: 30px;
+    background-color: #27a8b9;
+    color: #fff;
+}
+
+.icon_footer {
+    height: 30px;
+    background-color: #27a8b9;
+    color: #fff;
+}
+
+.text_container {
+    height: auto;
+    color: #fff;
+}
+
+
