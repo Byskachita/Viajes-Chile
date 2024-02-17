@@ -20,16 +20,7 @@ main {
 
 section h3 {
     color: #fff;
-}
-
-.container-fluid {
-    width: 100px;
-    height: auto;
-
-}
-
-.title {
-    color: #fff;
+    font-weight: 700;
 }
 
 .icon_header {
@@ -47,6 +38,38 @@ section h3 {
 .text_container {
     height: auto;
     color: #fff;
+    font-weight: 300px;
 }
+
+section .card {
+    background-color: #27a8b9;
+}
+
+section .card-body {
+    color: #fff;
+}
+
+.card img {
+    width: auto;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+form .btn {
+    background-color: #27a8b9;
+    color: #fff;
+    border-style: none;
+}
+
+footer {
+    background-color: #27a8b9;
+    color: #fff;
+}
+
+.icon ul {
+    list-style: none;
+}
+
+
 
 
