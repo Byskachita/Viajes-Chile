@@ -27,16 +27,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-md-auto">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#carouselExample">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Quienes somos</a>
+                    <a class="nav-link" href="#quienes_somos">Quienes somos</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Destacados</a>
+                    <a class="nav-link" href="#destacados">Destacados</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contacto</a>
+                    <a class="nav-link" href="#contacto">Contacto</a>
                   </li>
               </div>
             </div>
@@ -69,7 +69,7 @@
 <!--MAIN------------SECTION I------------------------------------------------------------------------------>
 
 <main>
-    <section class="pt-5">
+    <section id="quienes_somos" class="pt-5">
         <h3 class="text-center d-none d-md-none d-xl-block d-xxl-block">¿QUIENES SOMOS?</h3>
 
          <div class="container_info mt-5">
@@ -115,7 +115,7 @@
 
 <!--SECTION II-------------------------------------------------------------------------------------------------->
 
-    <section class="container-fluid">
+    <section id="destacados" class="container-fluid">
         <h3 class="text-center p-5">DESTACADOS</h3>
         <div class="row">
 
@@ -165,20 +165,26 @@
 
  <!--FORMULARIO-------------------------------------------------------->     
 
- <form class="p-5">
-    <h3 class="text-white text-center">CONTACTO</h3>
-    <div class="mb-4">
-        <label for="exampleInputEmail1" placeholder="Nombre" class="form-label text-white">Nombre</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div class="mb-4">
-        <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
-        <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div>
-        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Mensaje</textarea>
-    </div>
-    <button type="submit" class="btn btn-light mt-3">Enviar</button>
-</form>    
+<section id="contacto">
+
+    <form class="p-5">
+        <h3 class="text-white text-center">CONTACTO</h3>
+        <div class="mb-4">
+            <label for="exampleInputEmail1" placeholder="Nombre" class="form-label text-white">Nombre</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <div class="mb-4">
+            <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
+            <input type="password" class="form-control" id="exampleInputPassword1">
+        </div>
+        <div>
+            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px">Mensaje</textarea>
+        </div>
+        <button type="submit" class="btn btn-light mt-3">Enviar</button>
+    </form>   
+
+</section>
+
+  
 
 </main>
 
@@ -186,14 +192,14 @@
 
 <footer>
 
-        <div class="icon-section container-flex">
+        <div class="container-fluid icon-section py-1 px-5">
             <div class="row">
                
-                <div class="col-md-5 pt-2">
+                <div class="col-md-6 pt-3">
                     <p class="text-white h4">VIAJES CHILE</p>
                 </div>
 
-                <div class="col-md-7">
+                <div class="col-md-6">
                     <ul class="icon d-flex">
 
                         <li class="p-2">
@@ -226,6 +232,8 @@
                     
             </div>
         </div>
+
+        
         
 
     
