@@ -25,6 +25,18 @@ nav img {
     object-fit: cover;
 }
 
+#carouselExample img {
+    height: 650 px ;
+    object-fit: cover ;
+    object-position: 0 ;
+    }
+
+#carouselExample .carousel-item:last-child img {
+    height: 650px ;
+    object-fit: cover ;
+    object-position: 0 1px ;
+    }
+
 
 /*SECTION I**************************************/
 
@@ -70,7 +82,7 @@ section .card-body {
 
 .card img {
     width: auto;
-    max-height: 200px;
+    max-height: 150px;
     object-fit: cover;
 }
 
@@ -89,16 +101,19 @@ form .btn {
 footer {
     background-color: #27a8b9;
     color: #fff;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
 }
 
 footer .icon-section {
-    width: 100%;
     max-width: 80%;
     margin: 0 auto;
 }
 
-.icon ul {
+.icon {
     list-style: none;
+    font-size: 2rem;
 }
 
 
